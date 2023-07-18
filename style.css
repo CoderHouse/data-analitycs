@@ -20,7 +20,6 @@
 }
 
 
-
 .rectangle_9c3ccf98-52a5-49bb-818e-f859231eb8a3 .strw-shape {
     content: '';
     position: absolute;
@@ -1212,16 +1211,11 @@
             }
 
 
-
-
-
             .text_1346baf7-85f3-44ef-8e2f-d087786062b9 {
 
                 color: rgba(234.00000125169754, 255, 106.00000128149986, 1);
 
             }
-
-
 
             .text_1346baf7-85f3-44ef-8e2f-d087786062b9 {
                 top: 734px;
@@ -1249,6 +1243,14 @@
                 left: -webkit-calc(50% - 600px + -17px);
                 left: -o-calc(50% - 600px + -17px);
                 left: calc(50% - 600px + -17px)
+            }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .text_1346baf7-85f3-44ef-8e2f-d087786062b9 {
+                    top: 786px;
+                    left: 22px;
+                }
             }
 
 
@@ -1408,6 +1410,7 @@
                     left: 50%;
                     transform: translateX(-50%);
                     width: 90%;
+                    top: 860px;
                 }
             }
             
@@ -1525,6 +1528,7 @@
                     left: 50%;
                     transform: translateX(-50%);
                     width: 90%;
+                    top: 900px;
                 }
             }
 
@@ -1571,6 +1575,15 @@
                 left: -webkit-calc(50% - 600px + -17px);
                 left: -o-calc(50% - 600px + -17px);
                 left: calc(50% - 600px + -17px)
+            }
+
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .text_dc0066b3-f122-479e-959d-42d76a5c5fe1 {
+                    top: 1010px;
+                    left: 20px;
+                }
             }
 
 
@@ -1706,6 +1719,7 @@
                 .image_03814f5d-3ddd-4315-962c-3ff3cd0e17b9 {
                     left: 8%;
                     transform: translateX(-50%);
+                    top: 1080px;
                 }
             }
 
@@ -1798,6 +1812,7 @@
         left: 60%;
         transform: translateX(-50%);
         width: 90%;
+        top: 1080px;
     }
 }
 
@@ -1916,6 +1931,7 @@
                     left: 50%;
                     transform: translateX(-50%);
                     width: 90%;
+                    top: 1122px;
                 }
             }
 
@@ -1962,6 +1978,14 @@
                 left: -webkit-calc(50% - 600px + -17px);
                 left: -o-calc(50% - 600px + -17px);
                 left: calc(50% - 600px + -17px)
+            }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .text_84f09a91-9f58-4861-b0ee-c6f7d2305f2e {
+                    top: 1230px;
+                    left: 20px;
+                }
             }
 
             .group_e1c8dc00-48b3-4b75-974d-1298df7c54a0 {
@@ -5357,7 +5381,7 @@
                     left: 90%;
                 }
             }
-            
+
 
             .group_092cefca-39b6-4308-b358-b64e995dfb4b {
                 top: 0px;
@@ -5827,6 +5851,8 @@
                 position: absolute;
                 visibility: inherit;
                 background-color: transparent;
+                background-image: url('img/img-data.png');
+                background-size: contain;
             }
 
             .group_0d215ee2-263f-4377-88d6-b3d58343bdd2 {
@@ -6466,6 +6492,7 @@
                 position: absolute;
                 visibility: inherit;
                 background-color: transparent;
+                background-size: contain;
             }
 
             .group_96b0c469-8ce5-463e-bc4d-dc10b7aee01c {
