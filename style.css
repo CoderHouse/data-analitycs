@@ -1696,7 +1696,7 @@
             @media (min-width: 768px) and (max-width: 992px) {
                 /* Estilos para tablet */
                 .image_03814f5d-3ddd-4315-962c-3ff3cd0e17b9 {
-                    left: 50%;
+                    left: 10%;
                     transform: translateX(-50%);
                 }
             }
@@ -1773,7 +1773,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
-        left: 50%;
+        left: 52%;
         transform: translateX(-50%);
         width: 80%;
     }
@@ -2151,6 +2151,7 @@
                     left: 50%;
                     transform: translateX(-50%);
                     width: 80%;
+                    top: 1220px;
                 }
             }
             
@@ -2246,6 +2247,7 @@
                     left: 50%;
                     transform: translateX(-50%);
                     width: 80%;
+                    top: 1280px;
                 }
             }
             
@@ -2575,6 +2577,13 @@
                 left: calc(50% - 600px + 991.5px)
             }
 
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_b399ca5c-0c4d-4aac-a75b-7c14bbb01900 {
+                    left: 90%;
+                }
+            }
+
             .group_e1a068b4-8acd-4e61-8809-12ca94377e63 {
                 top: 0px;
                 left: 0px;
@@ -2811,6 +2820,13 @@
                 left: calc(50% - 600px + 991.5px)
             }
 
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_19802b9c-d4fb-493c-91e5-ce51e9cd052c {
+                    left: 90%;
+                }
+            }
+
             .group_dc12e009-4e64-454b-b3ef-e1ede57e9cc3 {
                 top: 0px;
                 left: 0px;
@@ -3035,6 +3051,13 @@
                 left: calc(50% - 600px + 991.5px)
             }
 
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_3e8db508-37ca-436a-a752-1f849da2873a {
+                    left: 90%;
+                }
+            }
+
             .group_62d34d61-5aca-4b5f-b6d4-61464e2ba6f7 {
                 top: 0px;
                 left: 0px;
@@ -3253,6 +3276,13 @@
                 left: -webkit-calc(50% - 600px + 991.5px);
                 left: -o-calc(50% - 600px + 991.5px);
                 left: calc(50% - 600px + 991.5px)
+            }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_4bdcfaeb-e1b6-4f49-bde2-3a85681e3b68 {
+                    left: 90%;
+                }
             }
 
             .group_43817be8-8e29-401a-9f8b-c14f5162187a {
@@ -3713,6 +3743,13 @@
                 left: calc(50% - 600px + 991.5px)
             }
 
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_60ed4e15-c822-47bf-bcc3-ba055c5e71ee {
+                    left: 90%;
+                }
+            }
+
             .group_a4832b81-42f2-47ab-9138-1994cc6cfe54 {
                 top: 0px;
                 left: 0px;
@@ -3932,7 +3969,13 @@
                 left: -o-calc(50% - 600px + 991.5px);
                 left: calc(50% - 600px + 991.5px)
             }
-
+            
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_be4e4111-bf2d-487e-807a-040d354d4399 {
+                    left: 90%;
+                }
+            }
             .group_303b6369-8de8-4563-afab-93fc1acbd8ae {
                 top: 0px;
                 left: 0px;
@@ -4151,6 +4194,13 @@
                 left: -webkit-calc(50% - 600px + 991.5px);
                 left: -o-calc(50% - 600px + 991.5px);
                 left: calc(50% - 600px + 991.5px)
+            }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_1a35316e-8d6c-471b-8bb4-eee298dd9fe8 {
+                    left: 90%;
+                }
             }
 
             .group_83a3e320-9348-4bb9-b61a-02fa1c80a60c {
@@ -4373,6 +4423,13 @@
                 left: -webkit-calc(50% - 600px + 991.5px);
                 left: -o-calc(50% - 600px + 991.5px);
                 left: calc(50% - 600px + 991.5px)
+            }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_895d5761-58d2-4b37-90ae-8d24da56e5a8 {
+                    left: 90%;
+                }
             }
 
             .group_d10df840-fcdb-44cb-9ee0-9a663325a653 {
@@ -4856,6 +4913,13 @@
                 left: calc(50% - 600px + 991.5px)
             }
 
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_a9707feb-85ea-43f7-86f8-ab3f99d831f9 {
+                    left: 90%;
+                }
+            }
+
             .group_1efe68d9-0015-439c-ada1-0796b980606e {
                 top: 0px;
                 left: 0px;
@@ -5064,6 +5128,13 @@
                 left: -webkit-calc(50% - 600px + 991.5px);
                 left: -o-calc(50% - 600px + 991.5px);
                 left: calc(50% - 600px + 991.5px)
+            }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_b51b7e59-fc1e-4cbb-a90a-27e39ae97cf8 {
+                    left: 90%;
+                }
             }
 
             .group_33480977-411a-40d7-96bf-f18307f33cf6 {
@@ -5279,6 +5350,14 @@
                 left: -o-calc(50% - 600px + 991.5px);
                 left: calc(50% - 600px + 991.5px)
             }
+
+            @media (max-width: 767px) {
+                /* Estilos para mobile */
+                .image_c95ac3af-54d9-4358-97c6-c2fd411f7f6f {
+                    left: 90%;
+                }
+            }
+            
 
             .group_092cefca-39b6-4308-b358-b64e995dfb4b {
                 top: 0px;
@@ -5863,16 +5942,11 @@
             }
 
 
-
-
-
             .text_7a5b3f4c-b325-4077-ad7b-dea896a744fe {
 
                 color: rgba(31.000000052154064, 32.00000189244747, 35.00000171363354, 1);
 
             }
-
-
 
             .text_7a5b3f4c-b325-4077-ad7b-dea896a744fe {
                 top: 450px;
@@ -5901,6 +5975,13 @@
                 left: -o-calc(50% - 600px + 547.5px);
                 left: calc(50% - 600px + 547.5px)
             }
+            @media (min-width: 768px) and (max-width: 992px) {
+                /* Estilos para tablet */
+                .text_7a5b3f4c-b325-4077-ad7b-dea896a744fe {
+                    top: 514px;
+                }
+            }
+
 
             .group_7854958e-0ddd-499b-9dff-1dc75af21607 {
                 top: 0px;
@@ -5965,7 +6046,6 @@
             @media (min-width: 768px) and (max-width: 992px) {
                 /* Estilos para tablet */
                 .rectangle_406f5171-a84e-4bf2-8ce8-6ec2bec28af1 {
-                    left: 0;
                     top: 500px;
                 }
             }
