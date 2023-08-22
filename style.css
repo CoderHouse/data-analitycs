@@ -4,8 +4,6 @@
   display: none;
   position: fixed;
   z-index: 1;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -29,6 +27,13 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 760px) {
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
+
 .page-content-class {
     display: flex !important;
     justify-content: space-between !important;
@@ -38,6 +43,10 @@
     color: rgba(234.00000125169754, 255, 106.00000128149986, 1) !important;
     font-size: 16px !important;
     font-weight: 400 !important;
+}
+
+.openModal {
+    cursor: pointer;
 }
 
 .page_pg_d1mWGDbZPMoKKFaXxFbKtLQtz:after {
