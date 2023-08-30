@@ -48,9 +48,6 @@ btns.forEach(function (btn) {
     modal.style.left = "20%";
     modal.style.height = "100vh";
     modal.style.width = "auto";
-    const ancho = modal.offsetWidth;
-    console.log("Ancho del div:", ancho, "px");
-    // modal.style.position = "absolute";
   });
 });
 
