@@ -6,10 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KC4VJK3');</script>
+        <!-- End Google Tag Manager -->
+        <script async defer>
+        (async () => {
+          async function _getCountry () {
+            try {
+              const country = await fetch('https://ipinfo.io/json?token=0bd4fec4638b3d')
+                .then(r => r.json())
+                .then(r => r.timezone?.includes('Europe') ? 'es' : r.country?.toLowerCase())
+              return country
+            } catch (err) {
+              console.error('err-ipinfo', err)
+              throw err
+            }
+          }
+          const queryString = window.location.search
+          const params = new URLSearchParams(queryString)
+          const COUNTRY = params.get('fc') || await _getCountry()
+          const loadGTM = () => {
+            const GTM_COUNTRIES = {
+              ar: 'GTM-564S4GQ',
+              uy: 'GTM-PBZQS7F',
+              cl: 'GTM-K826XRT',
+              co: 'GTM-KXMWVMR',
+              pe: 'GTM-TS56M2M',
+              mx: 'GTM-PHDT5M7',
+              es: 'GTM-NZRTRXG',
+              br: 'GTM-5QHMX8R',
+              us: 'GTM-T6WSLLW',
+              usa: 'GTM-T6WSLLW',
+              ww: 'GTM-KC4VJK3',
+              lan: 'GTM-MLSCZH9',
+              global: 'GTM-KC4VJK3',
+            }
+            window.GA_ID = GTM_COUNTRIES[COUNTRY] ? GTM_COUNTRIES[COUNTRY] : 'us';
+              (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                  'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f)
+              })(window, document, 'script', 'dataLayer', window.GA_ID)
+          }
+          // ------------------------------------------
+          //doRedirect()
+          //fillPrices()
+          loadGTM()
+          // ------------------------------------------
+        })()
+        </script>
+        
     <title>Coderhouse - Open Content </title>
 </head>
 
 <body class="page_pg_d1mWGDbZPMoKKFaXxFbKtLQtz">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC4VJK3"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
     <div class="siter-page page_pg_d1mWGDbZPMoKKFaXxFbKtLQtz">
         <div class="page-content">
             <div class="page-content__inner" id="page-content" style="transform: scale(1) translateZ(0px);">
@@ -1260,7 +1319,13 @@
                                         <div class="page-content__component text_7a5b3f4c-b325-4077-ad7b-dea896a744fe"
                                             data-container="grid" id="7a5b3f4c-b325-4077-ad7b-dea896a744fe"
                                             data-type="text">
-                                            <a data-wysiwyg="true" href="https://www.coderhouse.com/online/data-analytics" style="text-decoration: none !important; color: black !important;">Inscribirme</a>
+                                            <!-- <a data-wysiwyg="true" href="https://www.coderhouse.com/online/data-analytics" style="text-decoration: none !important; color: black !important;">Inscribirme</a> -->
+                                            <a data-wysiwyg="true"
+                                                href="https://www.coderhouse.com/online/data-analytics"
+                                                style="text-decoration: none !important; color: black !important;"
+                                                onclick="dataLayer.push({'event': 'WEB_CL_IT', 'eventCategory': 'landing', 'eventAction': 'cta', 'eventLabel': 'inscribirme'});">
+                                                Inscribirme
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
