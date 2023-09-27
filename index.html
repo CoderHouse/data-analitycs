@@ -16,7 +16,7 @@
         (async () => {
           async function _getCountry () {
             try {
-              const country = await fetch('https://ipinfo.io/json?token=0bd4fec4638b3d')
+              const country = await fetch('https://ipinfo.io/json?token=647df0edcd6e92')
                 .then(r => r.json())
                 .then(r => r.timezone?.includes('Europe') ? 'es' : r.country?.toLowerCase())
               return country
